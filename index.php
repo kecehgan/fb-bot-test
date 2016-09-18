@@ -17,9 +17,11 @@ $senderId = $input['entry'][0]['messaging'][0]['sender']['id'];
 $messageText = $input['entry'][0]['messaging'][0]['message']['text'];
 
 
-$answer = "I don't understand. Ask me 'hi'.";
+$answer = "I don't understand. Ask me 'hi' or 'chanmyae'.";
 if($messageText == "hi") {
     $answer = "Hello";
+} else if ($messageText == "chanmyae") {
+    $anwser = "Handsome coder :3 ";
 }
 
 $response = [
