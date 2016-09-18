@@ -21,7 +21,7 @@ $answer = "I don't understand. Ask me 'hi' or 'chanmyae'.";
 if($messageText == "hi") {
     $answer = "Hello";
 } else if ($messageText == "chanmyae") {
-    $anwser = "Handsome coder :3 ";
+    $answer = "Handsome coder :3 ";
 }
 
 $response = [
