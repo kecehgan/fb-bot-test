@@ -1,7 +1,7 @@
 <?php
 // ref from https://gist.github.com/remmel/fcbf60fd5364c443e74f407593ad50c8
 // parameters
-$hubVerifyToken = 'TOKEN123456abcd';
+$hubVerifyToken = 'TOKEN123456ABCD';
 $accessToken = "EAASWGE5SxgcBABJLTmlniJRet6dYqJQynfEW83JQxRe6QmXrrZClZA8z4tZAkUtdk3JKul9ZAQXcXeOiTeZAZAQSk2dYhZAd2KjEMA34xww3LcFRID3VzabDnKXl7Ows9Y2EROlFZA5JO6uDCSZAHDsmUuwNuizRdrFUOKQqEZAyZA4HgZDZD";
 
 // check token at setup
