@@ -19,8 +19,8 @@ $messageText = $input['entry'][0]['messaging'][0]['message']['text'];
 
 $answer = "I don't understand. Ask me 'hi' or 'chanmyae'.";
 if($messageText == "hi") {
-    $answer = "Hello";
-} else if ($messageText == "chanmyae") {
+    $answer = "Hello Pal";
+} else if ($messageText == "yo whatsup") {
     $answer = "Handsome coder :3 ";
 }
 
